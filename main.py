@@ -4,6 +4,12 @@ from google import genai
 
 from dotenv import load_dotenv
 load_dotenv()
+
+st.set_page_config(
+    page_title="Kaptan's AI",
+    page_icon="✨", 
+    layout="centered"
+)
 #--------------------------------------------------------------------------------------------
 # Printing "AI Assistant"
 #--------------------------------------------------------------------------------------------

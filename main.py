@@ -116,4 +116,4 @@ if choice:
    full_response = ""
    for chunk in response_stream:
        full_response += chunk.text
-       response_placeholder.markdown(full_response) 
+       response_placeholder.markdown(full_response)
